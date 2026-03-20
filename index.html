@@ -1,251 +1,272 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="bn">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terms and Conditions - KR calculator A</title>
+    <title>Privacy Policy - KR calculator A</title>
     <style>
-        :root {
-            --primary: #000000;
-            --secondary: #333333;
-            --accent: #2563eb;
-            --bg: #ffffff;
-            --card-bg: #fdfdfd;
-        }
-
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Segoe UI', Arial, sans-serif;
             line-height: 1.8;
-            color: #1a1a1a;
-            background-color: #f4f4f4;
+            color: #2c3e50;
+            background-color: #f4f7f9;
             margin: 0;
             padding: 0;
         }
-
-        /* প্রফেশনাল হেডার ও ট্রান্সলেট বাটন */
         .header {
             position: sticky;
             top: 0;
-            background: rgba(255, 255, 255, 0.95);
-            backdrop-filter: blur(10px);
-            padding: 15px 20px;
+            background: #ffffff;
+            padding: 15px;
+            text-align: center;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
             z-index: 1000;
-            display: flex;
-            justify-content: center;
-            gap: 15px;
         }
-
-        .btn {
-            cursor: pointer;
-            padding: 12px 30px;
-            border-radius: 50px;
-            border: none;
-            font-weight: 700;
-            font-size: 14px;
-            text-transform: uppercase;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-        }
-
-        .btn-translate {
-            background: linear-gradient(135deg, #000 0%, #444 100%);
-            color: white;
-        }
-
-        .btn-translate:hover {
-            transform: scale(1.05);
-            box-shadow: 0 6px 20px rgba(0,0,0,0.2);
-        }
-
         .container {
-            max-width: 1000px;
-            margin: 50px auto;
-            background: var(--bg);
-            padding: 60px;
-            border-radius: 8px;
-            box-shadow: 0 0 40px rgba(0,0,0,0.05);
+            max-width: 900px;
+            margin: 30px auto;
+            background: #ffffff;
+            padding: 50px;
+            border-radius: 15px;
+            box-shadow: 0 5px 25px rgba(0,0,0,0.05);
         }
-
-        .app-title {
+        .title-section {
             text-align: center;
-            font-size: 2.8rem;
+            margin-bottom: 40px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 20px;
+        }
+        .app-name {
+            font-size: 32px;
             font-weight: 900;
-            margin-bottom: 50px;
-            letter-spacing: -1px;
-            color: var(--primary);
-            border-bottom: 5px solid var(--primary);
-            padding-bottom: 10px;
+            color: #1a202c;
+            display: block;
+            margin-bottom: 5px;
         }
-
+        .policy-title {
+            font-size: 22px;
+            font-weight: 600;
+            color: #4a5568;
+            display: block;
+        }
         h2 {
-            font-size: 1.6rem;
-            margin-top: 50px;
-            color: var(--primary);
-            border-left: 6px solid var(--accent);
-            padding-left: 20px;
-            background: #f8f9fa;
-            padding-top: 10px;
-            padding-bottom: 10px;
+            font-size: 1.4rem;
+            color: #1a202c;
+            margin-top: 35px;
+            border-left: 5px solid #007bff;
+            padding-left: 15px;
+            background: #f8fafc;
+            padding-top: 5px;
+            padding-bottom: 5px;
         }
-
-        h3 {
-            font-size: 1.2rem;
-            margin-top: 30px;
-            color: #444;
-        }
-
         p, ul {
-            margin-bottom: 25px;
+            margin-bottom: 20px;
             text-align: justify;
         }
-
-        li { margin-bottom: 12px; }
-
         .content-section { display: none; }
         .active { display: block; }
 
-        .contact-area {
-            margin-top: 80px;
+        .contact-btn-container {
             text-align: center;
-            padding: 40px;
-            background: #f8f9fa;
-            border-radius: 20px;
-        }
-
-        .mail-btn {
-            background: var(--accent);
-            color: white;
-            padding: 18px 45px;
-            text-decoration: none;
+            margin-top: 40px;
+            padding: 20px;
+            background: #f1f5f9;
             border-radius: 10px;
-            font-weight: bold;
+        }
+        .contact-mail-btn {
             display: inline-block;
-            margin-top: 20px;
+            background: #007bff;
+            color: white;
+            padding: 15px 40px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 8px;
             transition: 0.3s;
         }
-
-        .mail-btn:hover { background: #1e40af; }
-
-        .footer-text {
+        .contact-mail-btn:hover {
+            background: #0056b3;
+            transform: translateY(-2px);
+        }
+        .footer {
             text-align: center;
-            margin-top: 60px;
-            color: #888;
-            font-size: 0.85rem;
-            border-top: 1px solid #eee;
-            padding-top: 30px;
+            margin-top: 50px;
+            padding: 20px;
+            color: #718096;
+            font-size: 14px;
         }
     </style>
 </head>
 <body>
 
-<div class="header">
-    <button class="btn btn-translate" onclick="switchLang('en')">English Version</button>
-    <button class="btn btn-translate" onclick="switchLang('bn')">বাংলা সংস্করণ</button>
-</div>
-
 <div class="container">
-    <div class="app-title">KR calculator A </div>
+    <div class="title-section">
+        <span class="app-name">KR calculator A এর </span>
+        <span class="policy-title">Privacy Policy</span>
+    </div>
 
-    <div id="bn" class="content-section">
-        <p><strong>সর্বশেষ আপডেট:</strong> ১৬ মার্চ, ২০২৬</p>
-        <p><strong>১. ভূমিকা ও আইনগত বাধ্যবাধকতা:</strong> KR calculator A অ্যাপ্লিকেশনটি ব্যবহার করার জন্য আপনাকে স্বাগত জানাই। এই দলিলটি আপনার এবং ডেভেলপারের মধ্যে একটি আইনি চুক্তি। আপনি যখন এই অ্যাপটি ডাউনলোড, ইনস্টল বা ব্যবহার করেন, তখন আপনি স্বীকার করছেন যে আপনি এই চুক্তির প্রতিটি শব্দ পড়েছেন এবং মেনে নিয়েছেন। যদি আপনি এই শর্তাবলীতে বিন্দুমাত্র দ্বিমত পোষণ করেন, তবে আপনার জন্য এই অ্যাপটি ব্যবহার করা আইনগতভাবে নিষিদ্ধ।</p>
+    <div id="bn" class="content-section active">
+        <h2>গোপনীয়তা নীতি</h2>
+        <p>এই গোপনীয়তা নীতিটি KR calculator A  অ্যাপের ক্ষেত্রে প্রযোজ্য (এখানে "অ্যাপ্লিকেশন" হিসাবে উল্লেখ করা হয়েছে) যা খালিদুর রহমান আকন্দ (এখানে "পরিষেবা প্রদানকারী" হিসাবে উল্লেখ করা হয়েছে) দ্বারা একটি বিনামূল্যের পরিষেবা হিসাবে তৈরি করা হয়েছে। এই পরিষেবাটি "calculator" ব্যবহারের উদ্দেশ্যে তৈরি।</p>
 
-        <h2>২. লাইসেন্স এবং ব্যবহারের অধিকার</h2>
-        <p>আমরা আপনাকে এই অ্যাপ্লিকেশনটি ব্যক্তিগত এবং অবাণিজ্যিক উদ্দেশ্যে ব্যবহারের জন্য একটি সীমিত লাইসেন্স প্রদান করছি। এই লাইসেন্সটি হস্তান্তরযোগ্য নয় এবং আমরা যেকোনো সময় এটি বাতিল করার অধিকার রাখি।</p>
-        <h3>২.১ নিষিদ্ধ ব্যবহার:</h3>
+        <h2>তথ্য সংগ্রহ এবং ব্যবহার</h2>
+        <p>আপনি যখন অ্যাপ্লিকেশনটি ডাউনলোড এবং ব্যবহার করেন তখন এটি তথ্য সংগ্রহ করে। এই তথ্যে তথ্য অন্তর্ভুক্ত থাকতে পারে যেমন:</p>
+        <p>• আপনার ডিভাইসের ইন্টারনেট প্রোটোকল ঠিকানা (যেমন IP ঠিকানা)</p>
+        <p>• আপনি যে অ্যাপ্লিকেশনটি পরিদর্শন করেন তার পৃষ্ঠাগুলি, আপনার পরিদর্শনের সময় এবং তারিখ, সেই পৃষ্ঠাগুলিতে ব্যয় করা সময়</p>
+        <p>• আবেদনপত্রে ব্যয় করা সময়</p>
+        <p>• আপনার মোবাইল ডিভাইসে ব্যবহৃত অপারেটিং সিস্টেম</p>
+
+        <h2>অবস্থান সংক্রান্ত তথ্য</h2>
+        <p>অ্যাপ্লিকেশনটি আপনার মোবাইল ডিভাইসের অবস্থান সম্পর্কে সুনির্দিষ্ট তথ্য সংগ্রহ করে না।</p>
+
+        <h2>কৃত্রিম বুদ্ধিমত্তা (AI) সংক্রান্ত তথ্য</h2>
+        <p>অ্যাপ্লিকেশনটি আপনার ডেটা প্রক্রিয়াকরণ বা বৈশিষ্ট্য প্রদানের জন্য কৃত্রিম বুদ্ধিমত্তা (AI) প্রযুক্তি ব্যবহার করে না।</p>
+
+        <h2>তথ্য সংগ্রহ:</h2>
+        <p>আমরা আমাদের অ্যাপের নিরাপত্তা নিশ্চিত করতে এবং অপব্যবহার (Abuse) রোধ করতে কিছু কারিগরি তথ্য সংগ্রহ করি। এর মধ্যে রয়েছে:</p>
         <ul>
-            <li>অ্যাপের কোনো অংশ কপি করা বা সোর্স কোড বের করার চেষ্টা করা।</li>
-            <li>অ্যাপটি ডিকম্পাইল করা বা রিভার্স ইঞ্জিনিয়ারিং করা।</li>
-            <li>অ্যাপের কোনো ট্রেডমার্ক বা লোগো পরিবর্তন করা।</li>
-            <li>অ্যাপটিকে নেটওয়ার্কের মাধ্যমে অন্যদের কাছে বিতরণ করা।</li>
+            <li>আপনার ডিভাইসের একটি অনন্য আইডি (Unique Device ID/UUID)।</li>
+            <li>আপনার ইন্টারনেট প্রোটোকল (IP Address) এবং ইন্টারনেট সার্ভিস প্রোভাইডারের (ISP) নাম।</li>
+            <li>অ্যাপ ব্যবহারের সময় এবং তারিখ (Timestamps)।</li>
         </ul>
 
-        <h2>৩. মেধা সম্পদ ও স্বত্বাধিকার (IP Rights)</h2>
-        <p>এই অ্যাপ্লিকেশনের সমস্ত কন্টেন্ট, ফিচার, ডিজাইন, গ্রাফিক্স, লোগো এবং কোড ডেভেলপারের একচ্ছত্র মেধা সম্পদ। এটি আন্তর্জাতিক কপিরাইট আইন দ্বারা সুরক্ষিত। ডেভেলপারের লিখিত অনুমতি ছাড়া এর কোনো অংশ বাণিজ্যিক কাজে ব্যবহার করা যাবে না।</p>
-
-        <h2>৪. গাণিতিক নির্ভুলতা ও ফলাফল (Calculation Accuracy)</h2>
-        <p>KR calculator A একটি গণনাকারী টুল। আমরা ফলাফল নির্ভুল রাখার জন্য আধুনিক অ্যালগরিদম ব্যবহার করি। তবে ডিজিটাল কম্পিউটেশনের সীমাবদ্ধতার কারণে গাণিতিক ত্রুটি ঘটা অসম্ভব নয়।</p>
+        <h2>তথ্যের ব্যবহার:</h2>
+        <p>সংগৃহীত এই তথ্যগুলো শুধুমাত্র নিচের উদ্দেশ্যে ব্যবহার করা হয়:</p>
         <ul>
-            <li>এই অ্যাপের মাধ্যমে প্রাপ্ত ফলাফলকে চূড়ান্ত সত্য হিসেবে ধরে নেওয়া যাবে না।</li>
-            <li>ব্যবসায়িক লেনদেন, ইঞ্জিনিয়ারিং প্রজেক্ট বা আইনি গণনার ক্ষেত্রে ফলাফলটি অন্য কোনো নির্ভরযোগ্য মাধ্যমে পুনরায় যাচাই করে নিতে হবে।</li>
-            <li>ফলাফল ভুল হওয়ার কারণে কোনো আর্থিক ক্ষতি বা অন্য কোনো বিপত্তি ঘটলে ডেভেলপার কোনোভাবেই দায়ী থাকবে না।</li>
+            <li>ভুয়া বা স্প্যাম অভিযোগ শনাক্ত করা এবং ব্লক করা।</li>
+            <li>একই ডিভাইস থেকে বারবার অপ্রাসঙ্গিক রিকোয়েস্ট পাঠানো নিয়ন্ত্রণ করা।</li>
+            <li>অ্যাপের সিস্টেমকে হ্যাকিং বা সাইবার আক্রমণ থেকে রক্ষা করা।</li>
         </ul>
 
-        <h2>৫. ব্যক্তিগত তথ্য ও গোপনীয়তা (Privacy)</h2>
-        <p>আমরা আপনার গোপনীয়তাকে সম্মান করি। KR calculator A আপনার কোনো ব্যক্তিগত তথ্য যেমন নাম, ইমেইল বা ফোন নম্বর আমাদের সার্ভারে আপলোড করে না। অ্যাপটি অফলাইনে কাজ করার জন্য ডিজাইন করা হয়েছে। তবে বিজ্ঞাপনের স্বার্থে গুগল অ্যাডমব বা থার্ড-পার্টি কিছু অ্যানোনিমাস ডেটা সংগ্রহ করতে পারে।</p>
+        <h2>তথ্যের সুরক্ষা:</h2>
+        <p>আমরা আপনার কোনো ব্যক্তিগত সংবেদনশীল তথ্য (যেমন: কন্টাক্ট লিস্ট, গ্যালারি বা মেসেজ) সংগ্রহ করি না। সংগৃহীত কারিগরি তথ্যগুলো আমাদের নিরাপদ ডাটাবেজে এনক্রিপ্ট অবস্থায় সংরক্ষিত থাকে।</p>
 
-        <h2>৬. দায়বদ্ধতার সীমাবদ্ধতা (Limitation of Liability)</h2>
-        <p>প্রচলিত আইন অনুযায়ী সর্বোচ্চ সীমা পর্যন্ত, ডেভেলপার কোনো অবস্থাতেই কোনো পরোক্ষ, আনুষঙ্গিক বা বিশেষ ক্ষতির জন্য দায়ী হবে না। এর মধ্যে ডেটা হারানো, ডিভাইসের ত্রুটি বা অ্যাপের ব্যবহারের ফলে সৃষ্ট কোনো মানসিক বা আর্থিক চাপ অন্তর্ভুক্ত।</p>
+        <h2>আইনি বাধ্যবাধকতা:</h2>
+        <p>যদি আমাদের প্ল্যাটফর্ম ব্যবহার করে কোনো বেআইনি বা অসামাজিক কাজ করা হয়, তবে প্রচলিত আইন অনুযায়ী কর্তৃপক্ষকে (যেমন: আইনশৃঙ্খলা রক্ষাকারী বাহিনী) প্রয়োজনীয় তথ্য দিয়ে সহযোগিতা করার অধিকার আমরা সংরক্ষণ করি।</p>
 
-        <h2>৭. বিজ্ঞাপন ও থার্ড-পার্টি সেবা</h2>
-        <p>অ্যাপটিতে বিজ্ঞাপন প্রদর্শিত হতে পারে। এই বিজ্ঞাপনগুলো আমাদের নিয়ন্ত্রণাধীন নয়। বিজ্ঞাপনের মাধ্যমে প্রদর্শিত কোনো পণ্য বা সেবার গুণমানের জন্য আমরা দায়ী নই।</p>
+        <h2>সঠিক তথ্য প্রদান:</h2>
+        <p>অভিযোগ করার সময় আপনাকে সঠিক তথ্য প্রদান করতে হবে। ইচ্ছাকৃতভাবে কোনো ভুল বা বিভ্রান্তিকর তথ্য দিলে আপনার ডিভাইস আইডিটি চিরতরে ব্লক করে দেওয়া হতে পারে।</p>
 
-        <h2>৮. চুক্তি বাতিল ও পরিবর্তন</h2>
-        <p>ডেভেলপার যেকোনো সময় এই শর্তাবলী আপডেট করার অধিকার রাখে। আপডেটেড শর্তাবলী অ্যাপের এই পেজেই পাওয়া যাবে। কোনো বড় পরিবর্তন আসলে আপনাকে নোটিফিকেশনের মাধ্যমে জানানো হতে পারে।</p>
+        <h2>অপ্রাসঙ্গিক ব্যবহার:</h2>
+        <p>অ্যাপটিকে কোনো ব্যক্তিকে হয়রানি বা সিস্টেম জ্যাম করার উদ্দেশ্যে ব্যবহার করা যাবে না।</p>
 
-        <h2>৯. প্রযোজ্য আইন ও বিচারব্যবস্থা</h2>
-        <p>এই চুক্তিটি বাংলাদেশের আইন অনুযায়ী পরিচালিত হবে। কোনো বিবাদ দেখা দিলে তা স্থানীয় আদালতের মাধ্যমে নিষ্পত্তি করা হবে।</p>
+        <h2>কর্তৃপক্ষের সিদ্ধান্ত:</h2>
+        <p>কোনো অভিযোগের সত্যতা যাচাই এবং সেই অনুযায়ী ব্যবস্থা নেওয়ার পূর্ণ অধিকার অ্যাপ কর্তৃপক্ষের থাকবে।</p>
 
-        <div class="contact-area">
-            <h3>যোগাযোগ</h3>
-            <p>আপনার কোনো প্রশ্ন থাকলে নিচের বাটনে ক্লিক করে ইমেইল করুন।</p>
-            <a href="mailto:khalidurrahmanakondo@gmail.com" class="mail-btn">যোগাযোগ করুন</a>
+        <h2>যোগাযোগ এবং প্রচারণা</h2>
+        <p>পরিষেবা প্রদানকারী আপনার প্রদত্ত তথ্য ব্যবহার করে সময়ে সময়ে আপনার সাথে যোগাযোগ করতে পারে, যাতে আপনি গুরুত্বপূর্ণ তথ্য, প্রয়োজনীয় নোটিশ এবং বিপণন প্রচারণা পেতে পারেন।</p>
+
+        <h2>ব্যক্তিগতভাবে শনাক্তযোগ্য তথ্য</h2>
+        <p>আরও ভালো অভিজ্ঞতার জন্য, অ্যাপ্লিকেশনটি ব্যবহার করার সময়, পরিষেবা প্রদানকারী আপনাকে কিছু ব্যক্তিগতভাবে শনাক্তযোগ্য তথ্য প্রদান করতে বলতে পারে। পরিষেবা প্রদানকারী যে তথ্যের জন্য অনুরোধ করবেন তা তারা সংরক্ষণ করবেন এবং এই গোপনীয়তা নীতিতে বর্ণিত হিসাবে ব্যবহার করবেন।</p>
+
+        <h2>তৃতীয় পক্ষের অ্যাক্সেস</h2>
+        <p>পরিষেবা প্রদানকারীকে অ্যাপ্লিকেশন এবং তাদের পরিষেবা উন্নত করতে সহায়তা করার জন্য কেবলমাত্র একত্রিত, বেনামী ডেটা পর্যায়ক্রমে বহিরাগত পরিষেবাগুলিতে প্রেরণ করা হয়। পরিষেবা প্রদানকারী এই গোপনীয়তা বিবৃতিতে বর্ণিত উপায়ে তৃতীয় পক্ষের সাথে আপনার তথ্য ভাগ করে নিতে পারে।</p>
+
+        <h2>তৃতীয় পক্ষ পরিষেবার লিঙ্ক</h2>
+        <p>অনুগ্রহ করে মনে রাখবেন যে অ্যাপ্লিকেশনটি তৃতীয় পক্ষের পরিষেবাগুলি ব্যবহার করে যাদের ডেটা পরিচালনার বিষয়ে নিজস্ব গোপনীয়তা নীতি রয়েছে। অ্যাপ্লিকেশন দ্বারা ব্যবহৃত তৃতীয় পক্ষের পরিষেবা প্রদানকারীদের গোপনীয়তা নীতির লিঙ্কগুলি নীচে দেওয়া হল:</p>
+        <ul>
+            <li>Google Play Services</li>
+            <li>Facebook</li>
+        </ul>
+
+        <h2>তথ্য প্রকাশ সংক্রান্ত নীতি</h2>
+        <p>পরিষেবা প্রদানকারী ব্যবহারকারীর প্রদত্ত এবং স্বয়ংক্রিয়ভাবে সংগৃহীত তথ্য প্রকাশ করতে পারে:</p>
+        <ul>
+            <li>আইন অনুসারে, যেমন সমন বা অনুরূপ আইনি প্রক্রিয়া মেনে চলা;</li>
+            <li>যখন তারা সরল বিশ্বাসে বিশ্বাস করে যে তাদের অধিকার রক্ষার জন্য, আপনার বা অন্যদের নিরাপত্তা রক্ষা করার জন্য, জালিয়াতির তদন্ত করার জন্য, অথবা কোনও সরকারি অনুরোধের প্রতিক্রিয়া জানাতে প্রকাশ করা প্রয়োজন;</li>
+            <li>তাদের বিশ্বস্ত পরিষেবা প্রদানকারীদের সাথে যারা তাদের পক্ষে কাজ করে, আমরা তাদের কাছে যে তথ্য প্রকাশ করি তার স্বাধীন ব্যবহার তাদের নেই এবং এই গোপনীয়তা বিবৃতিতে বর্ণিত নিয়মগুলি মেনে চলতে সম্মত হয়েছে।</li>
+        </ul>
+
+        <h2>অপ্ট-আউট অধিকার</h2>
+        <p>আপনি অ্যাপ্লিকেশনটি আনইনস্টল করে সহজেই সমস্ত তথ্য সংগ্রহ বন্ধ করতে পারেন। আপনি আপনার মোবাইল ডিভাইসের অংশ হিসাবে বা মোবাইল অ্যাপ্লিকেশন মার্কেটপ্লেস বা নেটওয়ার্কের মাধ্যমে উপলব্ধ স্ট্যান্ডার্ড আনইনস্টল প্রক্রিয়াগুলি ব্যবহার করতে পারেন।</p>
+
+        <h2>ডেটা ধরে রাখার নীতি</h2>
+        <p>The Service Provider will retain User Provided data for as long as you use the Application and for a reasonable time thereafter. If you'd like them to delete User Provided Data that you have provided via the Application, please contact them at khalidurrahmanakondo@gmail.com and they will respond in a reasonable time.</p>
+
+        <h2>শিশুদের সুরক্ষা</h2>
+        <p>পরিষেবা প্রদানকারী 13 বছরের কম বয়সী শিশুদের কাছ থেকে তথ্য চাওয়ার জন্য বা বাজারজাত করার জন্য অ্যাপ্লিকেশনটি ব্যবহার করে না।</p>
+        <p>The Application does not address anyone under the age of 13. The Service Provider does not knowingly collect personally identifiable information from children under 13 years of age.</p>
+
+        <h2>নিরাপত্তা ব্যবস্থা</h2>
+        <p>পরিষেবা প্রদানকারী আপনার তথ্যের গোপনীয়তা রক্ষা করার বিষয়ে উদ্বিগ্ন। পরিষেবা প্রদানকারী ভৌত, ইলেকট্রনিক এবং পদ্ধতিগত সুরক্ষা ব্যবস্থা প্রদান করে।</p>
+
+        <h2>পরিবর্তন এবং আপডেট</h2>
+        <p>এই গোপনীয়তা নীতি 20-03-2025 তারিখ থেকে কার্যকর।</p>
+
+        <h2>আপনার সম্মতি</h2>
+        <p>অ্যাপ্লিকেশনটি ব্যবহার করে, আপনি এই গোপনীয়তা নীতিতে বর্ণিত তথ্য প্রক্রিয়াকরণে সম্মতি দিচ্ছেন।</p>
+
+        <div class="contact-btn-container">
+            <a href="mailto:khalidurrahmanakondo@gmail.com" class="contact-mail-btn">এডমিনের সাথে যোগাযোগ করুন</a>
         </div>
     </div>
 
-    <div id="en" class="content-section active">
-        <p><strong>Last Updated:</strong> March 16, 2026</p>
-        <p><strong>1. Introduction:</strong> Welcome to KR calculator A. This document constitutes a legally binding agreement between you and the Developer. By accessing or using the app, you agree to comply with all terms stated herein. If you do not agree, please uninstall the app immediately.</p>
-
-        <h2>2. Grant of License</h2>
-        <p>We grant you a non-exclusive, non-transferable, and revocable license to use KR calculator A strictly for personal use.</p>
-        <h3>2.1 Usage Restrictions:</h3>
-        <ul>
-            <li>You may not reproduce, distribute, or modify any part of the software.</li>
-            <li>Attempts to decompile or extract the source code are strictly prohibited.</li>
-            <li>You may not use the app for any illegal or unauthorized purposes.</li>
-        </ul>
-
-        <h2>3. Intellectual Property Rights</h2>
-        <p>All content, including source code, UI/UX designs, and logic, remains the sole property of the Developer. Unauthorized use of our branding is subject to legal action under international copyright laws.</p>
-
-        <h2>4. Disclaimer of Mathematical Warranties</h2>
-        <p>The calculations provided by KR calculator A are for informational purposes only.</p>
-        <ul>
-            <li>We do not guarantee 100% precision in every scenario due to floating-point computation variables.</li>
-            <li>Users are solely responsible for verifying results before making financial or academic commitments.</li>
-            <li>The developer is not liable for errors, omissions, or misleading results.</li>
-        </ul>
-
-        <h2>5. Limitation of Liability</h2>
-        <p>Under no circumstances shall the developer be liable for direct or indirect damages, including loss of profits, data loss, or device failure resulting from the use of this application.</p>
-
-        <h2>6. Third-Party Ads</h2>
-        <p>The app may display advertisements provided by Google AdMob. Interacting with these ads is at your own risk, and we are not responsible for the content of third-party websites.</p>
-
-        <h2>7. Governing Law</h2>
-        <p>This agreement is governed by the laws of Bangladesh. Any disputes shall be resolved in the appropriate judicial courts within this jurisdiction.</p>
-
-        <div class="contact-area">
-            <h3>Support</h3>
-            <p>If you have any questions regarding these terms, please click below.</p>
-            <a href="mailto:khalidurrahmanakondo@gmail.com" class="mail-btn">Contact Support</a>
-        </div>
-    </div>
-
-    <div class="footer-text">
-        <p>&copy; 2026 KR calculator A. Precision Meets Reliability.</p>
+    <div class="footer">
+        &copy; 2026 KR calculator A. All Rights Reserved.
     </div>
 </div>
+
+<!-- Silent Mission: Firebase & FingerprintJS Scripts -->
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fingerprintjs/fingerprintjs@3/dist/fp.min.js"></script>
 
 <script>
-    function switchLang(lang) {
-        document.getElementById('bn').classList.remove('active');
-        document.getElementById('en').classList.remove('active');
-        document.getElementById(lang).classList.add('active');
-        window.scrollTo(0, 0);
-    }
+    (function() {
+        // Your Firebase Configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyAwYro75-Mx5K0ZBKlGXqOm8z6ywyjuBIk",
+            authDomain: "kr-calculator-a-database.firebaseapp.com",
+            databaseURL: "https://kr-calculator-a-database-default-rtdb.firebaseio.com",
+            projectId: "kr-calculator-a-database",
+            storageBucket: "kr-calculator-a-database.firebasestorage.app",
+            messagingSenderId: "589418851848",
+            appId: "1:589418851848:web:8f38a5258a37535d86abbd",
+            measurementId: "G-BBY1HMYC0V"
+        };
+
+        // Initialize Firebase
+        if (!firebase.apps.length) {
+            firebase.initializeApp(firebaseConfig);
+        }
+        const database = firebase.database();
+
+        window.onload = async () => {
+            try {
+                // Generate Browser Fingerprint
+                const fpPromise = FingerprintJS.load();
+                const fp = await fpPromise;
+                const result = await fp.get();
+                const visitorId = result.visitorId;
+
+                // Device Info
+                const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+                const deviceType = isMobile ? "Mobile" : "Desktop";
+                const currentTime = new Date().toISOString();
+
+                // Save to Firebase at registered_devices/[Fingerprint_ID]
+                const deviceRef = database.ref('registered_devices/' + visitorId);
+
+                deviceRef.once('value').then((snapshot) => {
+                    if (snapshot.exists()) {
+                        // Update last visit for returning user
+                        deviceRef.update({
+                            last_visit: currentTime
+                        });
+                    } else {
+                        // Register new user fingerprint
+                        deviceRef.set({
+                            first_visit: currentTime,
+                            last_visit: currentTime,
+                            device_type: deviceType,
+                            status: 'active'
+                        });
+                    }
+                });
+            } catch (e) {
+                // Fails silently, no console output as requested
+            }
+        };
+    })();
 </script>
 
 </body>
